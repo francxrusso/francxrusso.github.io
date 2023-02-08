@@ -305,8 +305,28 @@ p {
     color:var(--accent-green);
 }
 
-.card-btn:hover {
-	color: var(--dark-green);
+.card-btn {
+    position: relative;
+    padding-bottom:3px;
+}
+
+.card-btn::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    border-radius: 2px;
+    background-color: var(--accent-green);
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+.card-btn:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
 }
 
 .single-card h3 {
