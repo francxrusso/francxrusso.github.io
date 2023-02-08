@@ -132,7 +132,7 @@ header>img {
 
 footer {
     min-height: 50px;
-    max-height: 100px;
+    max-height: 75px;
     font-size: 12px;
     background-color: var(--dark-green);
     color: white;
@@ -196,12 +196,14 @@ footer>img {
     position: relative;
     top: 0;
     right: 170px;
+    overflow: hidden;
 }
 
 .clouds-img {
     position: absolute;
     top: 50px;
     right: 0px;
+    overflow: hidden;
 }
 
 /* Skills */
