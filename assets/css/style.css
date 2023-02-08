@@ -363,13 +363,13 @@ p {
 	max-width: 40%;
 }
 
-.social-icons i {
+.social-icons a {
 	color: var(--accent-green);
 	margin-right: 10px;
 	transition: all 0.4s ease-in-out;
 }
 
-.social-icons i:hover {
+.social-icons a:hover {
 	color: var(--dark-green);
 }
 
