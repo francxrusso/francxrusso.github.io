@@ -80,20 +80,26 @@ button.btn-secondary:hover {
 /* Header */
 header {
     background-color: var(--dark-green);
-    padding: 10px 0;
+    padding: 10px 0px;
     width: 100%;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
 }
 
 header>img {
+    margin-left:30px;
     max-width: 50px;
 }
 
-.topnav .links {
-    margin-right: 55px;
+.top-nav{
+    margin-right:30px;
+}
+
+.top-nav .links {
+    margin-right: 45px;
     transition: underline 2s ease-in;
     text-decoration: underline 3px transparent;
     color: white;
@@ -102,7 +108,7 @@ header>img {
 }
 
 /*transition nav*/
-.topnav .links {
+.top-nav .links {
     position: relative;
     padding-bottom: 2px;
 }
@@ -157,6 +163,7 @@ footer>img {
     align-items: center;
     justify-content: space-between;
     flex-wrap: no-wrap;
+    overflow: hidden;
 }
 
 .about-text ul li {
@@ -196,14 +203,12 @@ footer>img {
     position: relative;
     top: 0;
     right: 170px;
-    overflow: hidden;
 }
 
 .clouds-img {
     position: absolute;
     top: 50px;
     right: 0px;
-    overflow: hidden;
 }
 
 /* Skills */
@@ -282,11 +287,12 @@ p {
 
 .portfolio {
 	background-color: var(--white);
-	background-image: url(/assets/img/nuvole-pt.svg);
+	background-image: url("/assets/img/nuvole-pt.svg");
 	background-repeat: no-repeat;
 	background-position: center;
 	color: var(--black);
 	padding: 40px 10%;
+    overflow: hidden;
 }
 
 .portfolio-cards{
@@ -345,6 +351,7 @@ p {
 	justify-content: space-between;
 	flex-wrap: wrap;
 	padding: 30px 10%;
+    overflow: hidden;
 }
 
 .contacts-text {
