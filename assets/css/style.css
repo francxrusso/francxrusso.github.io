@@ -55,7 +55,7 @@ button.btn-primary {
     border: 0px !important;
     border-radius: 3px;
     padding: 10px 20px;
-    font-size: var(--button-font);
+    font-size: 14px;
     font-weight: 500;
     transition: all 0.4s ease-in-out;
 }
@@ -66,7 +66,7 @@ button.btn-primary:hover {
     border: 0px !important;
     border-radius: 3px;
     padding: 10px 20px;
-    font-size: var(--button-font);
+    font-size: 14px;
     font-weight: 500;
     box-shadow: var(--box-shadow-greenoutline);
 }
@@ -79,7 +79,7 @@ button.btn-secondary {
     border: 0px !important;
     border-radius: 3px;
     padding: 10px 20px;
-    font-size: var(--button-font);
+    font-size: 14px;
     font-weight: 500;
     transition: all 0.4s ease-in-out;
 }
@@ -90,7 +90,7 @@ button.btn-secondary:hover {
     border: 0px !important;
     border-radius: 3px;
     padding: 10px 20px;
-    font-size: var(--button-font);
+    font-size: 14px;
     font-weight: 500;
     box-shadow: var(--box-shadow-darkgoutline);
 }
@@ -302,6 +302,7 @@ footer {
     .about-text ul li {
         display: block;
         padding-bottom: 10px;
+        font-size: 12px;
     }
     
     .about-text {
