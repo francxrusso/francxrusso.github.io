@@ -176,12 +176,12 @@ header {
     }
     
     .top-nav{
-        margin-right:30px;
+        margin-right:0px;
     }
     
     .top-nav .links {
-        margin-right:20px;
-        font-size: 14px;
+        margin-right:10px;
+        font-size: 12px;
         font-weight: 500;
         padding:8px 10px;
         border: 1px solid white;
@@ -189,13 +189,7 @@ header {
     }    
 
     .top-nav .links:hover {
-        margin-right:20px;
-        font-size: 14px;
-        font-weight: 500;
-        padding:8px 10px;
-        border: 0px;
         background-color: var(--accent-green);
-        border-radius: 20px;
     }
 
     .top-nav .links:nth-child(4) {
