@@ -227,7 +227,7 @@ footer {
 @media only screen and (max-width: 992px) {
     footer {
         max-height: 30px;
-        font-size: 10px;
+        font-size: 8px;
     }
 
     footer>img {
