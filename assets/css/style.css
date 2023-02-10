@@ -314,6 +314,7 @@ footer p {
     
     .about-text {
         max-width: 100%;
+        margin:auto;
         padding: 0px 30px;
     }
     
