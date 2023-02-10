@@ -272,7 +272,11 @@ footer p {
 
 .about-text p {
     max-width: 480px;
-    margin: 4% 0;
+    margin: 4% 0px;
+}
+
+.about-text .btn-primary {
+    margin:20px 0px;
 }
 
 @media only screen and (min-width: 992px) {
