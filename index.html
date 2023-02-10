@@ -53,9 +53,14 @@
         <a href="#contacts"><button class="btn-primary">Get in touch</button></a>
       </div>
       <div class="about-img">
-         <img src="assets/img/io.svg" alt="foto franceca russo" class="me-img">
+        <picture>
+          <picture>
+            <source media="(max-width: 992px)" srcset="assets/img/io-mobile.svg" class="me-img"/>
+            <source media="(min-width: 992px)" srcset="assets/img/io.svg" class="me-img"/>
+            <img src="assets/img/io.svg" alt="foto francesca russo" class="me-img"/>
+          </picture>
         <img src="assets/img/nuvolette.svg" alt="nuvolette" class="clouds-img"> 
-      </div>
+      </picture></div>
     </section>
 
     <!-- Skills -->
