@@ -103,6 +103,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
     padding: 50px 8%;
 }
 
@@ -200,4 +202,14 @@ text-align: right;
 
 .single-box i {
     color: var(--accent-green);
+}
+
+/* Languages*/
+.languages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 0px 8%;
 }
