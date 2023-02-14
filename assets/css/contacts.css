@@ -1,0 +1,38 @@
+/* Contacts */
+
+.contacts {
+	background-color: var(--white);
+	color: var(--black);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 30px 10%;
+    overflow: hidden;
+}
+
+.contacts-text {
+	max-width: 60%;
+	padding: 3% 0px;
+}
+
+.contacts-img {
+	max-width: 40%;
+}
+
+.contacts-text p {
+	margin-bottom: 40px;
+    max-width: 500px;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .contacts-text {
+        max-width: 100%;
+        padding: 1% 0px;
+    }
+
+    .contacts-img {
+        display:none;
+    }
+}

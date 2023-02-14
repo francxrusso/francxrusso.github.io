@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="assets/css/reset.css">
-  <link rel='stylesheet' href='assets/css/style.css'>
+  <link rel="stylesheet" href="assets/css/global.css">
+  <link rel="stylesheet" href="assets/css/about.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,12 +27,14 @@
     <img src="assets/img/logo bianco.svg" alt="logo francesca russo" class="logo-bianco">
     <nav class="top-nav">
       <a href='#about' class="links">About</a>
-      <a href='#skills' class="links">Skills</a>
       <a href='#portfolio' class="links">Portfolio</a>
       <a href='#contacts' class="links">Contacts</a>
-      <a href="./assets/doc/CV-Francesca-Russo.pdf" download="CV-Francesca-Russo"><button class="btn-primary"
-          id="header-btn">Download
-          CV <i class="fa-regular fa-file-lines"></i></button></a>
+      <span class="social-icons">
+        <a class="fa-brands fa-whatsapp fa-lg " href="https://wa.me/00393454134947" target="_blank"></a>
+        <a class="fa-brands fa-telegram fa-lg" href="https://telegram.me/franxkx" target="_blank"></a>
+        <a class="fa-brands fa-github fa-lg" href="https://github.com/francxrusso" target="_blank"></a>
+        <a class="fa-brands fa-linkedin-in fa-lg" href="https://www.linkedin.com/in/francxrusso/" target="_blank"></a>
+      </span>
     </nav>
   </header>
 
@@ -50,142 +53,61 @@
           <br><br>My name is <em>Francesca Russo</em>, I'm currently working as a <em>Graphic and Web Designer</em>
           but my dream is to become a Developer. I am eager to take the next step in my career to continue
           growing professionally and to be proud of myself and my achievements.
-          
 
-        <a href="#contacts"><button class="btn-primary">Get in touch</button></a>
+          <a href="portfolio.html"><button class="btn-secodary">Portfolio <i
+                class="fa-solid fa-arrow-right"></i></button></a>
       </div>
       <div class="about-img">
         <picture>
-            <source media="(max-width: 992px)" srcset="assets/img/io-mobile.svg" class="me-img" />
-            <source media="(min-width: 992px)" srcset="assets/img/io.svg" class="me-img" />
-            <img src="assets/img/io.svg" alt="foto francesca russo" class="me-img" />
-          </picture>
-          <img src="assets/img/nuvolette.svg" alt="nuvolette" class="clouds-img">
+          <source media="(max-width: 992px)" srcset="assets/img/io-mobile.svg" class="me-img" />
+          <source media="(min-width: 992px)" srcset="assets/img/io.svg" class="me-img" />
+          <img src="assets/img/io.svg" alt="foto francesca russo" class="me-img" />
+        </picture>
+        <img src="assets/img/nuvolette.svg" alt="nuvolette" class="clouds-img">
       </div>
     </section>
 
     <!-- Skills -->
     <section class="skills" id="skills">
-      <div class="boxes">
-        <span class="single-box"><i class="fa-brands fa-html5 fa-2xl"></i>
-          <h3>html</h3>
-        </span>
-        <span class="single-box"><i class="fa-brands fa-css3-alt fa-2xl"></i>
-          <h3>css</h3>
-        </span>
-        <span class="single-box"><i class="fa-brands fa-bootstrap fa-2xl"></i>
-          <h3>bootstrap</h3>
-        </span>
-        <span class="single-box"><i class="fa-brands fa-wordpress fa-2xl"></i>
-          <h3>wordpress</h3>
-        </span>
-        <span class="single-box"><i class="fa-brands fa-html5 fa-2xl"></i>
-          <h3>shopify</h3>
-        </span>
-        <span class="single-box"><i class="fa-solid fa-table-columns fa-2xl"></i>
-          <h3>ui/ux</h3>
-        </span>
-        <span class="single-box"><i class="fa-brands fa-figma fa-2xl"></i>
-          <h3>figma</h3>
-        </span>
-
-        <span class="single-box"><i class="fa-solid fa-bezier-curve fa-2xl"></i>
-          <h3>illustrator</h3>
-        </span>
-
-        <span class="single-box"><i class="fa-solid fa-photo-film fa-2xl"></i>
-          <h3>photoshop</h3>
-        </span>
-
+      <div class="design-skills">
+        <h2 class="design-h2"><em>Design</em> Skills</h2>
+        <p class="design-p">I currently work as a Graphic and Web Design</p>
+        <div class="boxes">
+          <span class="single-box"><i class="fa-solid fa-table-columns fa-2xl"></i>
+            <h3>ui/ux</h3>
+          </span>
+          <span class="single-box"><i class="fa-brands fa-figma fa-2xl"></i>
+            <h3>figma</h3>
+          </span>
+          <span class="single-box"><i class="fa-solid fa-bezier-curve fa-2xl"></i>
+            <h3>illustrator</h3>
+          </span>
+          <span class="single-box"><i class="fa-solid fa-photo-film fa-2xl"></i>
+            <h3>photoshop</h3>
+          </span>
+        </div>
       </div>
 
-      <div class="skills-text">
-        <h2>Skills</h2>
-        <p>I have a fondness for development. I love languages and my ultimate career goal is to work with both languages and development. I've graduated in Oriental Languages - Chinese Major.
-          </p><br><br>
-          <h3>My Language skills:</h3>
-          <p><br><em>English</em>- C2 British Insitute
-          <br><em>Chinese</em>- HSK Level 4 </p>
+      <div class="development-skills">
+        <h2 class="dev-h2"><em>Development</em> Skills</h2>
+        <p class="dev-p">I currently work as a Graphic and Web Design</p>
+        <div class="boxes">
+          <span class="single-box"><i class="fa-brands fa-html5 fa-2xl"></i>
+            <h3>html</h3>
+          </span>
+          <span class="single-box"><i class="fa-brands fa-css3-alt fa-2xl"></i>
+            <h3>css</h3>
+          </span>
+          <span class="single-box"><i class="fa-brands fa-bootstrap fa-2xl"></i>
+            <h3>bootstrap</h3>
+          </span>
+          <span class="single-box"><i class="fa-brands fa-wordpress fa-2xl"></i>
+            <h3>wordpress</h3>
+          </span>
+        </div>
       </div>
+  
     </section>
-
-    <!-- Portfolio -->
-    <section class="portfolio" id="portfolio">
-      <div class="portfolio-text">
-        <h2>My Challenges and Projects</h2>
-      </div>
-
-      <div class="portfolio-cards">
-        <div class="single-card">
-          <img src="assets/img/product card.jpg" alt="">
-          <div class="container-text">
-            <h3>Product preview card</h3>
-            <a class="card-btn" href="https://1st-challenge-product-pricing.vercel.app/"> <i
-                class="fa-solid fa-arrow-right"></i> Preview </a>
-          </div>
-        </div>
-        <div class="single-card">
-          <img src="assets/img/order-summary.jpg" alt="">
-          <div class="container-text">
-            <h3>Order Summary</h3>
-            <a class="card-btn" href="https://order-summary-component-azure-five.vercel.app/"> <i
-                class="fa-solid fa-arrow-right"></i> Preview </a>
-          </div>
-        </div>
-        <div class="single-card">
-          <img src="assets/img/nft-card.jpg" alt="">
-          <div class="container-text">
-            <h3>NFT Preview Card</h3>
-            <a class="card-btn" href="https://nft-preview-card-beryl.vercel.app/"> <i
-                class="fa-solid fa-arrow-right"></i> Preview </a>
-          </div>
-        </div>
-        <div class="single-card">
-          <img src="assets/img/stats-preview-card.jpg" alt="">
-          <div class="container-text">
-            <h3>Stats preview card</h3>
-            <a class="card-btn" href="https://stats-preview-card-component-murex.vercel.app/"> <i
-                class="fa-solid fa-arrow-right"></i> Preview </a>
-          </div>
-        </div>
-
-        <div class="single-card">
-          <img src="assets/img/qr-card.jpg" alt="">
-          <div class="container-text">
-            <h3>QR code card</h3>
-            <a class="card-btn" href="https://qr-code-card-six.vercel.app/"> <i class="fa-solid fa-arrow-right"></i>
-              Preview </a>
-          </div>
-        </div>
-      </div>
-      </div>
-    </section>
-
-    <!-- Contacts -->
-    <section class="contacts" id="contacts">
-      <div class="contacts-text">
-        <h2>Get in touch</h2>
-        <p>Need more information or just want to send me a message? You can contact me with both whatsapp
-          and telegram for a faster reply.</p>
-
-        <div class="social-icons">
-          <a class="fa-brands fa-square-whatsapp fa-2xl" href="https://wa.me/00393454134947" target="_blank"></a>
-          <a class="fa-brands fa-telegram fa-2xl" href="https://telegram.me/franxkx" target="_blank"></a>
-          <a class="fa-brands fa-github fa-2xl" href="https://github.com/francxrusso" target="_blank"></a>
-          <a class="fa-solid fa-envelope-open-text fa-2xl" href="mailto:" franrussodesign@gmail.com""
-            target="_blank"></a>
-        </div>
-
-        <a href="./assets/doc/CV-Francesca-Russo.pdf" download="CV-Francesca-Russo"><button
-            class="btn-secondary">Download CV <i class="fa-regular fa-file-lines"></i></button></a>
-      </div>
-
-      <div class="contacts-img">
-        <img src="assets/img/nuvolactt.svg" alt="nuvola">
-      </div>
-
-    </section>
-
   </main>
 
   <!-- Footer -->
