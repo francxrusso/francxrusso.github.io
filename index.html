@@ -16,6 +16,7 @@
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
   <script src="https://kit.fontawesome.com/2352b387da.js" crossorigin="anonymous"></script>
+  <script src="assets/js/filter.js"></script>
 
   <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon.svg">
   <title>Portfolio - Francesca Russo</title>
@@ -69,44 +70,54 @@
 
     <!-- Skills -->
     <section class="skills" id="skills">
-      <div class="design-skills">
-        <h2 class="design-h2"><em>Design</em> Skills</h2>
-        <p class="design-p">Here are some skills I've mastered during job as a Graphic & Web Designer.</p>
+<div class="left-tab">
+      <div class="btn-container" id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('design')"> Design</button>
+  <button class="btn" onclick="filterSelection('dev')"> Development</button>
+  <button class="btn" onclick="filterSelection('cms')"> CMS</button>
+      </div>
+    
         <div class="boxes">
-          <span class="single-box"><i class="fa-solid fa-table-columns fa-2xl"></i>
+          <span class="single-box design"><i class="fa-solid fa-table-columns fa-2xl"></i>
             <h3>ui/ux</h3>
           </span>
-          <span class="single-box"><i class="fa-brands fa-figma fa-2xl"></i>
+          <span class=" single-box design"><i class="fa-brands fa-figma fa-2xl"></i>
             <h3>figma</h3>
           </span>
-          <span class="single-box"><i class="fa-solid fa-bezier-curve fa-2xl"></i>
+          <span class="single-box design"><i class="fa-solid fa-bezier-curve fa-2xl"></i>
             <h3>illustrator</h3>
           </span>
-          <span class="single-box"><i class="fa-solid fa-photo-film fa-2xl"></i>
+          <span class="single-box  design"><i class="fa-solid fa-photo-film fa-2xl"></i>
             <h3>photoshop</h3>
           </span>
-        </div>
-      </div>
-
-      <div class="development-skills">
-        <h2 class="dev-h2"><em>Development</em> Skills</h2>
-        <p class="dev-p">Here are some skills I already know as a in progress-developer.</p>
-        <div class="boxes">
-          <span class="single-box"><i class="fa-brands fa-html5 fa-2xl"></i>
+          <span class="single-box dev"><i class="fa-brands fa-html5 fa-2xl"></i>
             <h3>html</h3>
           </span>
-          <span class="single-box"><i class="fa-brands fa-css3-alt fa-2xl"></i>
+          <span class="single-box dev" ><i class="fa-brands fa-css3-alt fa-2xl"></i>
             <h3>css</h3>
           </span>
-          <span class="single-box"><i class="fa-brands fa-bootstrap fa-2xl"></i>
+          <span class="single-box dev"><i class="fa-brands fa-bootstrap fa-2xl"></i>
             <h3>bootstrap</h3>
           </span>
-          <span class="single-box"><i class="fa-brands fa-wordpress fa-2xl"></i>
+          <span class="single-box cms"><i class="fa-brands fa-wordpress fa-2xl"></i>
             <h3>wordpress</h3>
           </span>
         </div>
       </div>
+    </div>
   
+    <div class="skills-text">
+      <h2>Skills</h2>
+      <p>I have a fondness for development. I love languages and my ultimate career goal is to work with both
+        languages and development. I've graduated in Oriental Languages - Chinese Major.
+      </p><br><br>
+      <h3>My Language skills:</h3>
+      <p><br><em>English</em>- C2 British Insitute
+        <br><em>Chinese</em>- HSK Level 4
+      </p>
+    </div>
+
     </section>
   </main>
 
