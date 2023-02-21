@@ -36,8 +36,8 @@
 .about-text p {
     max-width: 480px;
     margin: 4% 0px;
+    padding-bottom: 10px;
 }
-
 
 @media only screen and (min-width: 992px) {
 
@@ -116,6 +116,10 @@
 max-width: 40%;
 padding-top: 50px;
 text-align: right;
+}
+
+.skills-text h2{
+margin-bottom: 20px;
 }
 
 .boxes {
@@ -212,4 +216,42 @@ text-align: right;
     align-items: center;
     flex-wrap: nowrap;
     padding: 0px 8%;
+}
+
+.more-text{
+    display:flex;
+    justify-content: center;
+}
+
+.language-list{
+    margin:0px 80px;
+}
+
+.language-list ul li img{
+    width:20px;
+}
+
+.language-list ul li em{
+    font-weight: 600;
+    color: black;
+    font-style: normal;
+}
+
+.hobby-list{
+    margin-top: 25px;
+}
+
+.more-text h3{
+    margin-top:20px;
+    margin-bottom: 10px;
+    color: var(--dark-green);
+}
+
+.more-text ul li{
+    padding:5px 0px;
+}
+
+.more-img > img{
+    height: 400px;
+    margin-bottom: 20px;
 }
