@@ -1,54 +1,54 @@
 /* Portfolio */
 
 .portfolio {
-	background-color: var(--white);
-	background-repeat: no-repeat;
-	background-position: center;
-	color: var(--black);
-	padding: 40px 10%;
+    background-color: var(--white);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: var(--black);
+    padding: 40px 10%;
     overflow: hidden;
     text-align: center;
     position: relative;
     z-index: 2;
 }
 
-.portfolio h2{
+.portfolio h2 {
     font-size: 30px;
     margin-bottom: 20px;
     position: relative;
     z-index: 2;
 }
 
-.portfolio .nuvolette{
-	position: absolute;
-	top: 100px;
-	bottom:100px;
-	right:300px;
+.portfolio .nuvolette {
+    position: absolute;
+    top: 100px;
+    bottom: 100px;
+    right: 300px;
 }
 
-.portfolio-cards{
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-    position: relative;
-    z-index: 2;
-}
-
-.filter-tab{
+.portfolio-cards {
     display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
     position: relative;
     z-index: 2;
 }
 
-.single-card a{
-    color:var(--accent-green);
+.filter-tab {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+}
+
+.single-card a {
+    color: var(--accent-green);
 }
 
 .card-btn {
     position: relative;
-    padding-bottom:3px;
+    padding-bottom: 3px;
 }
 
 .card-btn::before {
@@ -71,19 +71,19 @@
 }
 
 .single-card h3 {
-	color: var(--dark-green);
-	font-weight: 600;
-	font-size: 18px;
-	margin-bottom:20px;
+    color: var(--dark-green);
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
-.container-text{
-    padding:30px;
+.container-text {
+    padding: 30px;
 }
 
 .single-card {
-	width: 350px ;
-	margin: 20px;
+    width: 350px;
+    margin: 20px;
     text-align: left;
     border-radius: 10px;
     background-color: white;
@@ -92,14 +92,14 @@
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-.single-card img{
-	width: 100%;
-	border-radius: 10px 10px 0px 0px;
+.single-card img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .single-card:hover {
-	transform: translateY(-5px);
-	box-shadow: 0px 5px 15px 0px rgba(150, 150, 150, 0.41);
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px 0px rgba(150, 150, 150, 0.41);
 }
 
 /*filter*/

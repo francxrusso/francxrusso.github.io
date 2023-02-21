@@ -12,15 +12,15 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
-  body{
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-footer{
+footer {
     margin-top: auto;
 }
 
@@ -34,9 +34,9 @@ h2 {
     font-weight: 600;
 }
 
-h3{
-    font-size:16px;
-    font-weight:600;
+h3 {
+    font-size: 16px;
+    font-weight: 600;
 }
 
 p {
@@ -55,12 +55,12 @@ em {
         font-size: 25px;
         font-weight: 600;
     }
-    
+
     h2 {
         font-size: 18px;
         font-weight: 600;
     }
-    
+
     p {
         font-size: 12px;
         font-weight: 400;
@@ -68,7 +68,8 @@ em {
     }
 }
 
-button, .btn-primary {
+button,
+.btn-primary {
     color: var(--dark-green);
     background-color: var(--accent-green);
     border: 0px !important;
@@ -79,7 +80,8 @@ button, .btn-primary {
     transition: all 0.4s ease-in-out;
 }
 
-button:hover, .btn-primary :hover {
+button:hover,
+.btn-primary :hover {
     color: var(--accent-green);
     background-color: var(--dark-green);
     border: 0px !important;
@@ -115,29 +117,29 @@ button:hover, .btn-primary :hover {
 }
 
 .social-icons a {
-	color: var(--accent-green);
-	margin-right: 10px;
-	transition: all 0.4s ease-in-out;
+    color: var(--accent-green);
+    margin-right: 10px;
+    transition: all 0.4s ease-in-out;
 }
 
 .social-icons a:hover {
-	color: white;
+    color: white;
 }
 
 /* Header */
 header {
     background-color: var(--dark-green);
-    padding:10px 0px;
+    padding: 10px 0px;
     width: 100%;
 }
 
 header>img {
-    margin-left:30px;
+    margin-left: 30px;
     max-width: 50px;
 }
 
-.top-nav{
-    margin-right:30px;
+.top-nav {
+    margin-right: 30px;
 }
 
 .top-nav .links {
@@ -150,39 +152,39 @@ header>img {
 }
 
 @media only screen and (min-width: 992px) {
-header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
 
-/*transition nav*/
+    /*transition nav*/
 
-.top-nav .links {
-    position: relative;
-    padding-bottom: 2px;
-}
+    .top-nav .links {
+        position: relative;
+        padding-bottom: 2px;
+    }
 
-.links::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 3px;
-    border-radius: 2px;
-    background-color: var(--accent-green);
-    bottom: 0;
-    left: 0;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform .3s ease-in-out;
-}
+    .links::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        border-radius: 2px;
+        background-color: var(--accent-green);
+        bottom: 0;
+        left: 0;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform .3s ease-in-out;
+    }
 
-.links:hover::before {
-    transform-origin: left;
-    transform: scaleX(1);
-}
+    .links:hover::before {
+        transform-origin: left;
+        transform: scaleX(1);
+    }
 
 }
 
@@ -198,36 +200,36 @@ header {
         align-items: center;
         text-align: center;
     }
-    
+
     header>img {
-        margin-bottom:20px;
+        margin-bottom: 20px;
         max-width: 30px;
     }
-    
-    .top-nav{
-        margin-right:0px;
-        margin-bottom:20px;
+
+    .top-nav {
+        margin-right: 0px;
+        margin-bottom: 20px;
     }
-    
+
     .top-nav .links {
-        margin-right:10px;
+        margin-right: 10px;
         font-size: 12px;
         font-weight: 500;
-        padding:8px 10px;
+        padding: 8px 10px;
         border: 1px solid white;
         border-radius: 20px;
-    }    
+    }
 
     .top-nav .links:hover {
         background-color: var(--accent-green);
     }
 
     .top-nav .links:nth-child(4) {
-        margin-right:0px;
+        margin-right: 0px;
     }
 
-    #header-btn{
-        display:none;
+    #header-btn {
+        display: none;
     }
 }
 
@@ -243,7 +245,7 @@ footer {
     max-height: 30px;
 }
 
-footer .logo-bianco{
+footer .logo-bianco {
     width: 20px;
 }
 
@@ -253,13 +255,13 @@ footer p {
 }
 
 @media only screen and (max-width: 992px) {
-    footer{
+    footer {
         display: block;
         min-height: 60px;
     }
 
-    .footer>p{
+    .footer>p {
         font-size: 10px;
-        margin-bottom:0%;
+        margin-bottom: 0%;
     }
 }
