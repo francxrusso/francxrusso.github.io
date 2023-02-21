@@ -16,6 +16,7 @@
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
   <script src="https://kit.fontawesome.com/2352b387da.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
   <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon.svg">
   <title>Portfolio</title>
@@ -46,12 +47,21 @@
 <main>
      <!-- Portfolio -->
      <section class="portfolio" id="portfolio">
-        <div class="portfolio-text">
+
           <h2>My Challenges and Projects</h2>
-        </div>
-  
+        
+        <div class="filter-tab">
+          <div class="btn-container">
+            <ul>
+              <li data-li="all" class="btn active">All</li>
+              <li data-li="design" class="btn">Design</li>
+              <li data-li="dev" class="btn">Development</li>
+              <li data-li="cms" class="btn">CMS</li>
+            </ul>
+          </div>
+
         <div class="portfolio-cards">
-          <div class="single-card">
+          <div class="single-card dev">
             <img src="assets/img/product card.jpg" alt="">
             <div class="container-text">
               <h3>Product preview card</h3>
@@ -59,7 +69,7 @@
                   class="fa-solid fa-arrow-right"></i> Preview </a>
             </div>
           </div>
-          <div class="single-card">
+          <div class="single-card dev">
             <img src="assets/img/order-summary.jpg" alt="">
             <div class="container-text">
               <h3>Order Summary</h3>
@@ -67,7 +77,7 @@
                   class="fa-solid fa-arrow-right"></i> Preview </a>
             </div>
           </div>
-          <div class="single-card">
+          <div class="single-card dev">
             <img src="assets/img/nft-card.jpg" alt="">
             <div class="container-text">
               <h3>NFT Preview Card</h3>
@@ -75,7 +85,7 @@
                   class="fa-solid fa-arrow-right"></i> Preview </a>
             </div>
           </div>
-          <div class="single-card">
+          <div class="single-card dev">
             <img src="assets/img/stats-preview-card.jpg" alt="">
             <div class="container-text">
               <h3>Stats preview card</h3>
@@ -84,7 +94,7 @@
             </div>
           </div>
   
-          <div class="single-card">
+          <div class="single-card dev">
             <img src="assets/img/qr-card.jpg" alt="">
             <div class="container-text">
               <h3>QR code card</h3>
@@ -93,7 +103,9 @@
             </div>
           </div>
         </div>
+        
         </div>
+<img src="assets/img/nuvoletteintere.svg" alt="nuvolette" class="nuvolette">
       </section>
     </main>
 
@@ -106,4 +118,7 @@
       <p>Designed and coded with 💚 by Francesca Russo</p>
     </div>
   </footer>
+
+  <script src="assets/js/projects.js"></script>
 </body>
+</html>
