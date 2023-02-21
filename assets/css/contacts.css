@@ -22,6 +22,8 @@
 .contacts .social-icons{
 	margin-top: 50px;
 	margin-bottom: 40px;
+	position: relative;
+    z-index: 2;
 }
 
 input, textarea {
