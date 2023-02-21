@@ -3,36 +3,29 @@
 .contacts {
 	background-color: var(--white);
 	color: var(--black);
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	padding: 30px 10%;
-    overflow: hidden;
+	padding: 30px 4%;
+	text-align: center;
 }
 
-.contacts-text {
-	max-width: 60%;
-	padding: 3% 0px;
-}
-
-.contacts-img {
-	max-width: 40%;
-}
-
-.contacts-text p {
+.contacts .social-icons{
+	margin-top: 50px;
 	margin-bottom: 40px;
-    max-width: 500px;
 }
 
-@media only screen and (max-width: 992px) {
+input, textarea {
+	width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+	border:1px solid  #9BBAC9;
+	border-radius: 3px;
+}
 
-    .contacts-text {
-        max-width: 100%;
-        padding: 1% 0px;
-    }
-
-    .contacts-img {
-        display:none;
-    }
+form{
+	background-color:#e3ecf1 ;
+	border-radius: 10px;
+	padding: 50px;
+	max-width: 600px;
+	margin-left: auto;
+  margin-right: auto;
 }
