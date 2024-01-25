@@ -1,5 +1,15 @@
-<h1>This is the first project of the "Full Stack Developer Course" from Start2Impact</h1>
+<h2>Hi there 👋 What's up?</h2>
+<h1>Welcome, this is my Portfolio!</h1>
 
-The goal is building your Portfolio website using HTML and CSS
- 
- <a href="https://francxrusso.github.io/">Show Portfolio</a>
+Built as a project for Start2Impact Master, now is my main portfolio. 
+My name is Francesca Russo and'm currently working as a Graphic and Web Designer.
+
+#Built with
+☁︎ HTML
+☁︎ CSS
+☁︎ JavaScript
+
+#Contact
+Francesca Russo - franrussodesign@gmail.com
+
+Project Link: https://francxrusso.github.io
